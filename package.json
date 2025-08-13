@@ -1,5 +1,5 @@
 {
-  "name": "webapp",
+  "name": "@ll2025/webapp",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -11,6 +11,10 @@
     "prettify": "prettier --log-level warn --cache --write src/**/*.{ts,tsx,js,json,yml,scss} !**/{node_modules,dist}/**/*"
   },
   "dependencies": {
+    "@ll2025/backend": "*",
+    "@tanstack/react-query": "^5.85.0",
+    "@trpc/client": "^11.4.4",
+    "@trpc/react-query": "^11.4.4",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   },
